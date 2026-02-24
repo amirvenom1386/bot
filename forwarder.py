@@ -27,7 +27,7 @@ def register_handlers(client):
     @client.on(events.NewMessage(chats=SOURCE_TEST))
     async def test(event):
         try:
-            awit client.forward_messages(TARGET, event.message)
+            await client.forward_messages(TARGET, event.message)
             print("Forwarded from SOURCE_TEST ✅")
         except Exception as e:
             print("Error :",e)
