@@ -24,3 +24,10 @@ def register_handlers(client):
                 print("Ignored non-media message ⏭")
         except Exception as e:
             print("Error SOURCE_MEDIA:", e)
+    @client.on(events.NewMessage(chats=SOURCE_TEST))
+    async def test(event):
+        try:
+            awit client.forward_messages(TARGET, event.message)
+            print("Forwarded from SOURCE_TEST ✅")
+        except Exception as e:
+            print("Error :",e)
