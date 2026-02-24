@@ -12,4 +12,4 @@ SOURCE_TEST = "https://t.me/+cVcxTIMzGmM1MzFk"
 
 
 # مقصد
-TARGET = "your_target_channel_or_bot"
+TARGET = "https://t.me/+E_c0md8177Q2MTE0"
