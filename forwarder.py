@@ -1,6 +1,6 @@
 # forwarder.py
 from telethon import events
-from config import SOURCE_ALL, SOURCE_MEDIA, TARGET
+from config import SOURCE_ALL, SOURCE_MEDIA,SOURCE_TEST, TARGET
 
 def register_handlers(client):
     # کانال اول: همه پیام‌ها
