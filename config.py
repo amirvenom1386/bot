@@ -6,8 +6,10 @@ api_hash = os.getenv("API_HASH")
 session_name = "news_forwarder"
 
 # کانال‌ها (فقط یوزرنیم، بدون https://t.me/)
-SOURCE_ALL = "source_all_channel"
-SOURCE_MEDIA = "source_media_channel"
+SOURCE_ALL = "https://t.me/Cyber_News_ir"
+SOURCE_MEDIA = "https://t.me/MW_HACK"
+SOURCE_TEST = "https://t.me/+cVcxTIMzGmM1MzFk"
+
 
 # مقصد
 TARGET = "your_target_channel_or_bot"
